@@ -1,0 +1,166 @@
+repo_name: ramzimalhas/xpipe
+report_id: 2244bec3a37ecedc8657eac272b6efbf
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:31:59+00:00'
+requested_by: crschnick
+provider: github
+branch: master
+detected_tools_count: 13
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ramzimalhas/xpipe
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/ramzimalhas/xpipe
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/ramzimalhas/xpipe/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: crschnick
+  last_updated_on: 2023-01-27 02:34:46.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ramzimalhas/xpipe
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/ramzimalhas/xpipe/blob/master/api/build.gradle
+  detection_source: api/build.gradle
+  last_updated_by: crschnick
+  last_updated_on: 2023-01-27 02:34:46.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/ramzimalhas/xpipe/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: crschnick
+  last_updated_on: 2023-01-27 02:34:46.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/ramzimalhas/xpipe
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ramzimalhas/xpipe
+  detection_source: Repo Metadata
+- name: org.controlsfx:controlsfx
+  description: High quality UI controls and other tools to complement the core JavaFX
+    distribution
+  version: 11.1.2
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ramzimalhas/xpipe/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: crschnick
+  last_updated_on: 2023-10-16 03:37:22.000000000 Z
+- name: org.hamcrest:hamcrest
+  description: Core API and libraries of hamcrest matcher framework
+  version: '2.2'
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ramzimalhas/xpipe/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: crschnick
+  last_updated_on: 2023-10-16 03:37:22.000000000 Z
+- name: org.jetbrains:annotations
+  description: A set of annotations used for code inspection support and code documentation
+  version: 24.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ramzimalhas/xpipe/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: crschnick
+  last_updated_on: 2023-10-16 03:37:22.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  version: 5.9.3
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ramzimalhas/xpipe/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: crschnick
+  last_updated_on: 2023-10-16 03:37:22.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-params
+  description: Module "junit-jupiter-params" of JUnit 5
+  version: 5.9.3
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ramzimalhas/xpipe/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: crschnick
+  last_updated_on: 2023-10-16 03:37:22.000000000 Z
